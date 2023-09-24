@@ -915,6 +915,23 @@
     )
   )
 
+  (sheet (at 30.48 64.77) (size 44.45 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bf23a663-b938-440b-843e-ef7912c82d18)
+    (property "Sheetname" "Fan Control" (at 30.48 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Fan_Control.kicad_sch" (at 30.48 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BPS-LeaderDaughter"
+        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e" (page "3"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )

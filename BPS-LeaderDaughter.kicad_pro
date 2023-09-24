@@ -475,6 +475,10 @@
     [
       "55cfe956-9550-49f5-88d2-e32c6d523ac3",
       "Strobe Light"
+    ],
+    [
+      "bf23a663-b938-440b-843e-ef7912c82d18",
+      "Fan Control"
     ]
   ],
   "text_variables": {}
