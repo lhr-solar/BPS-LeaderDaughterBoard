@@ -2244,6 +2244,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1ef0589b-2ee3-415a-9cb1-8103c8ec974a)
   )
+  (text "Clipping Voltage Logic to \nensure that only 3.3V logic goes in to mcu"
+    (at 38.1 146.05 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 28d3f44c-d566-4d8c-bd19-f7988afd7025)
+  )
   (text "ISOLATED" (at 74.93 38.1 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 44566fbd-c617-42f6-b7fa-96c5ee0add94)
@@ -2256,9 +2261,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da5dc30a-1d0b-4c0e-abe4-8769c0e41488)
   )
-  (text "Should this by GND or GNDPWR?" (at 61.595 130.175 0)
+  (text "The upper mosfet is for voltage protection:\nIf some high votlage spike comes in from the Contactor \nit won't send it through the rest of the circuit"
+    (at 228.6 24.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fbbece33-21c5-4e75-86cb-17c4a1fb5aff)
+    (uuid e1d583b9-d096-4603-bd70-3b9a0f94034b)
   )
 
   (label "CONTACTOR_V+" (at 381.635 122.555 0) (fields_autoplaced)
@@ -2823,9 +2829,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid e8845ed1-14b7-4fe8-8f29-c9289da5fb30))
-    (pin "3" (uuid f4d02709-7c01-4686-85d6-c56ca784be24))
+    (pin "3" (uuid f4d02709-7c01-4686-85d6-c56ca784be25))
     (pin "1" (uuid e2f7c26d-2a12-45b1-b42f-54d372790f29))
-    (pin "3" (uuid f4d02709-7c01-4686-85d6-c56ca784be24))
+    (pin "3" (uuid f4d02709-7c01-4686-85d6-c56ca784be25))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
@@ -2937,9 +2943,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid d57624a6-bcea-4a2f-993a-c1ce0182f5ec))
-    (pin "3" (uuid 5c703273-1a2f-45ad-a6ea-fdece936b73e))
+    (pin "3" (uuid 5c703273-1a2f-45ad-a6ea-fdece936b73f))
     (pin "1" (uuid 8bea0cca-b3cb-4f52-8817-ed7092c748e2))
-    (pin "3" (uuid 5c703273-1a2f-45ad-a6ea-fdece936b73e))
+    (pin "3" (uuid 5c703273-1a2f-45ad-a6ea-fdece936b73f))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
