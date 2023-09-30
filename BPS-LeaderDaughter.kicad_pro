@@ -479,6 +479,18 @@
     [
       "bf23a663-b938-440b-843e-ef7912c82d18",
       "Fan Control"
+    ],
+    [
+      "ae57cd3a-fadb-4313-835a-95d5b185a797",
+      "HV+ Contactor Driver"
+    ],
+    [
+      "5e4c6ec4-73d4-4ed3-a75f-02eb4f9ac8b3",
+      "HV- Contactor Driver"
+    ],
+    [
+      "bb673292-4a5d-469b-b6b6-0dc7df3c162d",
+      "Array Contactor Driver"
     ]
   ],
   "text_variables": {}
