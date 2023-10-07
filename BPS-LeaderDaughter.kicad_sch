@@ -629,7 +629,7 @@
   (symbol (lib_id "utsvt-connectors:DaughterConnector") (at 255.905 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01b2a4dd-374f-4152-86a0-b4aea82d2a02)
-    (property "Reference" "J6" (at 267.335 22.86 0)
+    (property "Reference" "J2" (at 267.335 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DaughterConnector" (at 267.335 25.4 0)
@@ -682,7 +682,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "J6") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -793,7 +793,7 @@
   (symbol (lib_id "power:+3.3V") (at 252.73 31.115 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ead34e3-6acf-4102-a7ef-b77abb008ffd)
-    (property "Reference" "#PWR071" (at 252.73 34.925 0)
+    (property "Reference" "#PWR03" (at 252.73 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 252.73 26.67 0)
@@ -809,7 +809,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -886,7 +886,7 @@
   (symbol (lib_id "power:GND") (at 247.65 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8fca9593-27c2-49ec-a340-c1f8e0dd404a)
-    (property "Reference" "#PWR069" (at 247.65 62.23 0)
+    (property "Reference" "#PWR01" (at 247.65 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 60.96 0)
@@ -902,7 +902,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -979,7 +979,7 @@
   (symbol (lib_id "power:+12V") (at 248.285 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2a0b1d3-e5b5-49fb-9e04-bcfbeb23acad)
-    (property "Reference" "#PWR068" (at 248.285 31.75 0)
+    (property "Reference" "#PWR02" (at 248.285 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 248.285 22.86 0)
@@ -995,7 +995,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1004,7 +1004,7 @@
   (symbol (lib_id "utsvt-connectors:DaughterConnector") (at 222.885 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4833fd3-52bb-4153-8981-2f7f7544821f)
-    (property "Reference" "J5" (at 234.315 22.86 0)
+    (property "Reference" "J1" (at 234.315 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DaughterConnector" (at 234.315 25.4 0)
@@ -1057,7 +1057,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "J5") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1066,7 +1066,7 @@
   (symbol (lib_id "power:+5V") (at 281.305 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6639ccb-fcd6-466e-9943-21353716bb1a)
-    (property "Reference" "#PWR070" (at 281.305 31.75 0)
+    (property "Reference" "#PWR04" (at 281.305 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 281.305 22.86 0)
@@ -1082,7 +1082,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )

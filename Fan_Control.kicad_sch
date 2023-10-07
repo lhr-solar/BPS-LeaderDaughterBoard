@@ -1465,7 +1465,7 @@
           (reference "J7") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -1474,7 +1474,7 @@
   (symbol (lib_id "Device:R") (at 182.88 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b029294-24eb-4ea3-8d80-5407856b5ae1)
-    (property "Reference" "R36" (at 182.88 39.37 90)
+    (property "Reference" "R15" (at 182.88 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 182.88 41.91 90)
@@ -1494,7 +1494,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R36") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -1503,7 +1503,7 @@
   (symbol (lib_id "Diode:1N4148") (at 234.95 120.65 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e99e945-8622-4284-8665-f033614fc573)
-    (property "Reference" "D24" (at 237.49 119.38 90)
+    (property "Reference" "D8" (at 237.49 119.38 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4148WS" (at 237.49 121.92 90)
@@ -1529,7 +1529,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "D24") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -1538,7 +1538,7 @@
   (symbol (lib_id "power:+3.3V") (at 92.71 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12976548-ed73-47cb-9055-c01b0ac27822)
-    (property "Reference" "#PWR057" (at 88.9 48.26 0)
+    (property "Reference" "#PWR016" (at 88.9 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 96.52 48.26 90)
@@ -1554,7 +1554,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1563,7 +1563,7 @@
   (symbol (lib_id "Device:R") (at 124.46 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 143b260e-9e1d-450e-81fb-af60183e3cb4)
-    (property "Reference" "R31" (at 127 113.03 0)
+    (property "Reference" "R10" (at 127 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 127 115.57 0)
@@ -1583,7 +1583,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R31") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1592,7 +1592,7 @@
   (symbol (lib_id "Device:R") (at 179.07 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26ba0bf1-c2f1-44ce-a462-945e28ef7e21)
-    (property "Reference" "R35" (at 181.61 82.55 0)
+    (property "Reference" "R14" (at 181.61 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 181.61 85.09 0)
@@ -1612,7 +1612,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R35") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -1652,7 +1652,7 @@
           (reference "J7") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "J11") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1661,7 +1661,7 @@
   (symbol (lib_id "Device:R") (at 189.23 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cb90eda-2bab-4101-9774-cfb661d8c1dd)
-    (property "Reference" "R40" (at 191.77 36.83 0)
+    (property "Reference" "R19" (at 191.77 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 191.77 39.37 0)
@@ -1681,7 +1681,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R40") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1712,12 +1712,41 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005d923d59"
           (reference "#PWR067") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Zener") (at 143.51 83.82 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 34234a9c-2594-438d-bb09-d19613b0c68e)
+    (property "Reference" "D5" (at 146.05 82.55 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "3.3V" (at 146.05 85.09 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-523" (at 143.51 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/MM5Z2V4T1_D-2316295.pdf" (at 143.51 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "P/N" "SZMM5Z3V3T1G" (at 143.51 83.82 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3eae49e6-93aa-40b3-be5b-8e4c94103dd2))
+    (pin "2" (uuid 0ccd3a2b-f822-48ae-8db1-e8f49a692c2a))
+    (instances
+      (project "BPS-LeaderDaughter"
+        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1757,7 +1786,7 @@
           (reference "J7") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "J8") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -1766,7 +1795,7 @@
   (symbol (lib_id "Device:R") (at 207.01 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b779ca0-09b4-473d-b054-3cdb579c75d4)
-    (property "Reference" "R42" (at 209.55 36.83 0)
+    (property "Reference" "R21" (at 209.55 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 209.55 39.37 0)
@@ -1786,7 +1815,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R42") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -1826,7 +1855,7 @@
           (reference "J7") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "J10") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -1835,7 +1864,7 @@
   (symbol (lib_id "Device:R") (at 110.49 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 413f2e52-cd4c-44ec-b167-62dc05974a8e)
-    (property "Reference" "R30" (at 113.03 113.03 0)
+    (property "Reference" "R9" (at 113.03 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 113.03 115.57 0)
@@ -1855,7 +1884,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R30") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1864,7 +1893,7 @@
   (symbol (lib_id "power:+12V") (at 234.95 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 423ce477-adfc-4fe4-9b6d-5ae0ff5e5f4e)
-    (property "Reference" "#PWR064" (at 234.95 120.65 0)
+    (property "Reference" "#PWR025" (at 234.95 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 234.95 111.76 0)
@@ -1880,7 +1909,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -1889,7 +1918,7 @@
   (symbol (lib_id "power:+12V") (at 189.23 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 456d559b-7600-475f-9a08-6f9700fea291)
-    (property "Reference" "#PWR059" (at 189.23 30.48 0)
+    (property "Reference" "#PWR019" (at 189.23 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 189.23 21.59 0)
@@ -1905,7 +1934,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -1914,7 +1943,7 @@
   (symbol (lib_id "Device:R") (at 182.88 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5adafa3c-5813-4d79-9ce0-d00d64cb4737)
-    (property "Reference" "R38" (at 182.88 59.69 90)
+    (property "Reference" "R17" (at 182.88 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 182.88 62.23 90)
@@ -1934,7 +1963,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R38") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1965,7 +1994,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "BPS-Leader"
@@ -1976,39 +2005,10 @@
     )
   )
 
-  (symbol (lib_id "Device:D_Zener") (at 134.62 83.82 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 63339f02-cc14-4b73-b93a-41fe0af5b237)
-    (property "Reference" "D9" (at 137.16 82.55 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "3.3V" (at 137.16 85.09 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-523" (at 134.62 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/MM5Z2V4T1_D-2316295.pdf" (at 134.62 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "P/N" "SZMM5Z3V3T1G" (at 134.62 83.82 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 77fdcff4-5abb-4364-857b-6feeb5a8348a))
-    (pin "2" (uuid 8861a6c3-fa0f-43ca-9d9e-f892fa8440fb))
-    (instances
-      (project "BPS-LeaderDaughter"
-        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "D9") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:D_Zener") (at 116.84 83.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a82aff0-9f3f-4ca4-af32-f41479e5806b)
-    (property "Reference" "D17" (at 119.38 82.55 90)
+    (property "Reference" "D2" (at 119.38 82.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3V" (at 119.38 85.09 90)
@@ -2028,7 +2028,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "D17") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2059,7 +2059,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "BPS-Leader"
@@ -2095,7 +2095,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "BPS-Leader"
@@ -2131,7 +2131,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "BPS-Leader"
@@ -2145,7 +2145,7 @@
   (symbol (lib_id "Diode:1N4148") (at 234.95 77.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71a6a2b2-0f76-421e-a267-c89837ee1c09)
-    (property "Reference" "D26" (at 237.49 76.2 90)
+    (property "Reference" "D6" (at 237.49 76.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4148WS" (at 237.49 78.74 90)
@@ -2171,7 +2171,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "D26") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -2180,7 +2180,7 @@
   (symbol (lib_id "Device:R") (at 182.88 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b236f83-0a43-48a6-8096-5395a4199979)
-    (property "Reference" "R37" (at 182.88 49.53 90)
+    (property "Reference" "R16" (at 182.88 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 182.88 52.07 90)
@@ -2200,7 +2200,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R37") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2240,7 +2240,7 @@
           (reference "J7") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "J9") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -2249,7 +2249,7 @@
   (symbol (lib_id "power:+3.3V") (at 30.48 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f01c9e1-8c53-4967-bd11-40f8d22ed6f9)
-    (property "Reference" "#PWR02" (at 34.29 45.72 0)
+    (property "Reference" "#PWR014" (at 34.29 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 26.67 45.72 90)
@@ -2265,7 +2265,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2274,7 +2274,7 @@
   (symbol (lib_id "Device:R") (at 81.28 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cfd97f2-5f42-4476-83b1-4f00a710d58c)
-    (property "Reference" "R28" (at 83.82 113.03 0)
+    (property "Reference" "R7" (at 83.82 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 83.82 115.57 0)
@@ -2294,7 +2294,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R28") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2335,7 +2335,7 @@
   (symbol (lib_id "Device:R") (at 96.52 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 908f5c18-9ec2-492d-86ac-88614e10b3b7)
-    (property "Reference" "R29" (at 99.06 113.03 0)
+    (property "Reference" "R8" (at 99.06 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 99.06 115.57 0)
@@ -2355,7 +2355,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R29") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2364,7 +2364,7 @@
   (symbol (lib_id "Diode:1N4148") (at 234.95 142.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95575331-68dd-493c-95fd-81af46033152)
-    (property "Reference" "D29" (at 237.49 140.97 90)
+    (property "Reference" "D9" (at 237.49 140.97 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4148WS" (at 237.49 143.51 90)
@@ -2390,7 +2390,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "D29") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -2399,7 +2399,7 @@
   (symbol (lib_id "Device:D_Zener") (at 125.73 83.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98545509-85e9-49b7-a615-765dbbe44c7b)
-    (property "Reference" "D16" (at 128.27 82.55 90)
+    (property "Reference" "D3" (at 128.27 82.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3V" (at 128.27 85.09 90)
@@ -2419,36 +2419,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "D16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Zener") (at 143.51 83.82 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9afbe08a-a258-4eeb-b0f0-21102afd96a1)
-    (property "Reference" "D6" (at 146.05 82.55 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "3.3V" (at 146.05 85.09 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-523" (at 143.51 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/MM5Z2V4T1_D-2316295.pdf" (at 143.51 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "P/N" "SZMM5Z3V3T1G" (at 143.51 83.82 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fe5a5bbc-adcc-4a92-b6f7-7702160869ac))
-    (pin "2" (uuid 8f7db5b5-59ef-49bf-8d1d-47b7a91de6ff))
-    (instances
-      (project "BPS-LeaderDaughter"
-        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "D6") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2457,7 +2428,7 @@
   (symbol (lib_id "Device:R") (at 170.18 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b69c2c1-4e90-4a64-879d-ca2c96fc578c)
-    (property "Reference" "R34" (at 172.72 82.55 0)
+    (property "Reference" "R13" (at 172.72 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 172.72 85.09 0)
@@ -2477,7 +2448,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R34") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2508,7 +2479,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "BPS-Leader"
@@ -2522,7 +2493,7 @@
   (symbol (lib_id "Transistor_FET:BUK9M23-80EX") (at 101.6 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5dae325-40bb-4baa-a724-7399400435c3)
-    (property "Reference" "Q15" (at 107.95 146.05 0)
+    (property "Reference" "Q4" (at 107.95 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BUK9M23-80E" (at 107.95 148.59 0)
@@ -2545,7 +2516,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "Q15") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -2554,7 +2525,7 @@
   (symbol (lib_id "Transistor_FET:BUK9M23-80EX") (at 115.57 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a845ec10-d719-47ed-8c7b-940ec75736d0)
-    (property "Reference" "Q10" (at 121.92 133.35 0)
+    (property "Reference" "Q5" (at 121.92 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BUK9M23-80E" (at 121.92 135.89 0)
@@ -2577,7 +2548,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "Q10") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -2586,7 +2557,7 @@
   (symbol (lib_id "Diode:1N4148") (at 234.95 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aaa64cb2-8d06-4698-a7d9-06c2d465c1df)
-    (property "Reference" "D25" (at 237.49 97.79 90)
+    (property "Reference" "D7" (at 237.49 97.79 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4148WS" (at 237.49 100.33 90)
@@ -2612,7 +2583,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "D25") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -2621,7 +2592,7 @@
   (symbol (lib_id "Device:R") (at 198.12 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad29e05f-9af9-4e78-9d54-9ecf703e8d77)
-    (property "Reference" "R41" (at 200.66 36.83 0)
+    (property "Reference" "R20" (at 200.66 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 200.66 39.37 0)
@@ -2641,7 +2612,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R41") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -2650,7 +2621,7 @@
   (symbol (lib_id "Device:R") (at 161.29 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2b13f15-e310-4839-91d9-cdfe5d3e33ad)
-    (property "Reference" "R33" (at 163.83 82.55 0)
+    (property "Reference" "R12" (at 163.83 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 163.83 85.09 0)
@@ -2670,7 +2641,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R33") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2701,7 +2672,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "BPS-Leader"
@@ -2715,7 +2686,7 @@
   (symbol (lib_id "power:+12V") (at 234.95 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c076df83-c71d-46c0-b1bd-ee00e9585969)
-    (property "Reference" "#PWR060" (at 234.95 77.47 0)
+    (property "Reference" "#PWR021" (at 234.95 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 234.95 68.58 0)
@@ -2731,7 +2702,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2740,7 +2711,7 @@
   (symbol (lib_id "power:+12V") (at 234.95 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4dfb588-fcdc-459c-91ec-4603d38090af)
-    (property "Reference" "#PWR062" (at 234.95 99.06 0)
+    (property "Reference" "#PWR023" (at 234.95 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 234.95 90.17 0)
@@ -2756,7 +2727,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2765,7 +2736,7 @@
   (symbol (lib_id "Device:R") (at 215.9 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da75a6d7-293e-4ba4-8009-e8592d54a4e2)
-    (property "Reference" "R43" (at 218.44 36.83 0)
+    (property "Reference" "R22" (at 218.44 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 218.44 39.37 0)
@@ -2785,7 +2756,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R43") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -2794,7 +2765,7 @@
   (symbol (lib_id "power:+12V") (at 234.95 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de193fd3-a210-47b5-80e7-9226e2feef41)
-    (property "Reference" "#PWR066" (at 234.95 142.24 0)
+    (property "Reference" "#PWR027" (at 234.95 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 234.95 133.35 0)
@@ -2810,7 +2781,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2819,7 +2790,7 @@
   (symbol (lib_id "power:+3.3V") (at 81.28 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1ccd2ec-da84-491f-839c-23e8b0081926)
-    (property "Reference" "#PWR056" (at 81.28 106.68 0)
+    (property "Reference" "#PWR015" (at 81.28 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 81.28 97.79 0)
@@ -2835,7 +2806,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2866,7 +2837,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "BPS-Leader"
@@ -2880,7 +2851,7 @@
   (symbol (lib_id "Device:R") (at 182.88 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebbc736c-6acb-4aaa-a22d-2b573a7b42b5)
-    (property "Reference" "R39" (at 182.88 69.85 90)
+    (property "Reference" "R18" (at 182.88 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 182.88 72.39 90)
@@ -2900,7 +2871,36 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R39") (unit 1)
+          (reference "R18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Zener") (at 134.62 83.82 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid eca4edec-13e5-4a8e-b19a-677f4ef97d4a)
+    (property "Reference" "D4" (at 137.16 82.55 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "3.3V" (at 137.16 85.09 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-523" (at 134.62 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/MM5Z2V4T1_D-2316295.pdf" (at 134.62 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "P/N" "SZMM5Z3V3T1G" (at 134.62 83.82 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f7249ea3-bfef-4a8a-9fec-542547365a6c))
+    (pin "2" (uuid 8d2ca620-8cbb-4b55-a790-171ebd72707d))
+    (instances
+      (project "BPS-LeaderDaughter"
+        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -2967,7 +2967,7 @@
   (symbol (lib_id "Device:R") (at 152.4 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4bb8a8d-6a27-4b89-bc6c-46961247fbca)
-    (property "Reference" "R32" (at 154.94 82.55 0)
+    (property "Reference" "R11" (at 154.94 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 154.94 85.09 0)
@@ -2987,7 +2987,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "R32") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2996,7 +2996,7 @@
   (symbol (lib_id "Transistor_FET:BUK9M23-80EX") (at 87.63 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fba8a582-8c47-4aa5-8324-42d6229a4ffd)
-    (property "Reference" "Q14" (at 93.98 158.75 0)
+    (property "Reference" "Q3" (at 93.98 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BUK9M23-80E" (at 93.98 161.29 0)
@@ -3019,7 +3019,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "Q14") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
