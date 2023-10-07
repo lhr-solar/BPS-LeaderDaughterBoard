@@ -2829,9 +2829,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid e8845ed1-14b7-4fe8-8f29-c9289da5fb30))
-    (pin "3" (uuid f4d02709-7c01-4686-85d6-c56ca784be26))
+    (pin "3" (uuid f4d02709-7c01-4686-85d6-c56ca784be27))
     (pin "1" (uuid e2f7c26d-2a12-45b1-b42f-54d372790f29))
-    (pin "3" (uuid f4d02709-7c01-4686-85d6-c56ca784be26))
+    (pin "3" (uuid f4d02709-7c01-4686-85d6-c56ca784be27))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
@@ -2943,9 +2943,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid d57624a6-bcea-4a2f-993a-c1ce0182f5ec))
-    (pin "3" (uuid 5c703273-1a2f-45ad-a6ea-fdece936b740))
+    (pin "3" (uuid 5c703273-1a2f-45ad-a6ea-fdece936b741))
     (pin "1" (uuid 8bea0cca-b3cb-4f52-8817-ed7092c748e2))
-    (pin "3" (uuid 5c703273-1a2f-45ad-a6ea-fdece936b740))
+    (pin "3" (uuid 5c703273-1a2f-45ad-a6ea-fdece936b741))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
