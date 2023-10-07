@@ -809,6 +809,74 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 277.495 146.685 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 45bda917-b496-4d1b-88fd-8410a0d72586)
+    (property "Reference" "MH5" (at 280.035 145.5166 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M.3" (at 280.035 147.828 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3mm" (at 277.495 146.685 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 277.495 146.685 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "BPS-LeaderDaughter"
+        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
+          (reference "MH5") (unit 1)
+        )
+      )
+      (project "BPS-Leader"
+        (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "MH1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 267.335 154.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7b252ee7-2c97-49d3-930d-a18d74de536c)
+    (property "Reference" "MH4" (at 269.875 153.7716 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M.3" (at 269.875 156.083 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3mm" (at 267.335 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 267.335 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "BPS-LeaderDaughter"
+        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
+          (reference "MH4") (unit 1)
+        )
+      )
+      (project "BPS-Leader"
+        (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "MH2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 247.65 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8fca9593-27c2-49ec-a340-c1f8e0dd404a)
@@ -829,6 +897,74 @@
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
           (reference "#PWR069") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 277.495 154.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b3b2c4a0-d7e8-4c2e-b64c-546a6ac4da6f)
+    (property "Reference" "MH6" (at 280.035 153.7716 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M.3" (at 280.035 156.083 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3mm" (at 277.495 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 277.495 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "BPS-LeaderDaughter"
+        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
+          (reference "MH6") (unit 1)
+        )
+      )
+      (project "BPS-Leader"
+        (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "MH2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 267.335 146.685 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d0345546-68ae-452b-b9b0-0aa64c689e4e)
+    (property "Reference" "MH3" (at 269.875 145.5166 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M.3" (at 269.875 147.828 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3mm" (at 267.335 146.685 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 267.335 146.685 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "BPS-LeaderDaughter"
+        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
+          (reference "MH3") (unit 1)
+        )
+      )
+      (project "BPS-Leader"
+        (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "BPS-PeripheralSOM"
+        (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
+          (reference "MH1") (unit 1)
         )
       )
     )
