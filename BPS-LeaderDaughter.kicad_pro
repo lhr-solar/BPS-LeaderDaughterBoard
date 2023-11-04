@@ -491,6 +491,10 @@
     [
       "bb673292-4a5d-469b-b6b6-0dc7df3c162d",
       "Array Contactor Driver"
+    ],
+    [
+      "115507eb-1e24-4553-a6e1-1fcd332a9a2b",
+      "Ignition"
     ]
   ],
   "text_variables": {}

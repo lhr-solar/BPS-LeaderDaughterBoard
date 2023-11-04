@@ -1122,6 +1122,23 @@
     )
   )
 
+  (sheet (at 30.48 167.005) (size 44.45 15.875) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 115507eb-1e24-4553-a6e1-1fcd332a9a2b)
+    (property "Sheetname" "Ignition" (at 30.48 166.2934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Ignition.kicad_sch" (at 30.48 183.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BPS-LeaderDaughter"
+        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e" (page "7"))
+      )
+    )
+  )
+
   (sheet (at 29.845 32.385) (size 45.085 13.335) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
