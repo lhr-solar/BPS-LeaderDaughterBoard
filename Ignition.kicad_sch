@@ -314,6 +314,21 @@
   )
 
 
+  (no_connect (at 128.27 85.725) (uuid 1f4fc6da-6660-4d32-ab20-042fe64ea184))
+  (no_connect (at 128.27 70.485) (uuid 252f3620-1d8a-4616-abbe-9541a301436d))
+  (no_connect (at 128.27 75.565) (uuid 261d52e6-b053-47ec-b166-c238336d6ebd))
+  (no_connect (at 128.27 93.345) (uuid 400082cd-959f-4256-83a1-42f894672099))
+  (no_connect (at 128.27 67.945) (uuid 52613fea-0f31-4ef7-a0f7-b2f0842dcccc))
+  (no_connect (at 128.27 98.425) (uuid 5877eedd-091d-44f1-80dc-cc7df0edeb78))
+  (no_connect (at 128.27 80.645) (uuid 6c280045-ba4e-4004-a507-5c8e06a43a9f))
+  (no_connect (at 151.13 90.805) (uuid 6f20bc81-9491-4850-8e12-a5c5d0745670))
+  (no_connect (at 128.27 88.265) (uuid 7004ba5c-1edc-4be3-87fe-b44d639941f5))
+  (no_connect (at 128.27 73.025) (uuid 73b411b4-9c33-4367-acc3-6183f347b99d))
+  (no_connect (at 128.27 90.805) (uuid 91c77610-e1bb-43a6-bdef-ece9bb21742a))
+  (no_connect (at 151.13 73.025) (uuid c68a0cbf-b1de-4ad4-924f-78cfcc3b40bf))
+  (no_connect (at 128.27 95.885) (uuid e2dbc3b9-0f24-4759-98a8-417977e1e0a6))
+  (no_connect (at 128.27 78.105) (uuid ff660161-ab0a-4f77-89dc-35774747ab65))
+
   (rectangle (start 88.265 109.855) (end 90.805 109.855)
     (stroke (width 0) (type default))
     (fill (type none))
