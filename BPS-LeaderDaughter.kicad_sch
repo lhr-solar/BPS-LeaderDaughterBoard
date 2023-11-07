@@ -822,12 +822,12 @@
       )
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-          (reference "LOGO2") (unit 1)
+          (reference "LOGO?") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "LOGO2") (unit 1)
+          (reference "LOGO?") (unit 1)
         )
       )
     )
@@ -836,7 +836,7 @@
   (symbol (lib_id "power:+5V") (at 257.81 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07747838-0ff6-4e74-bbb5-b83e0f81a7a7)
-    (property "Reference" "#PWR049" (at 254 33.02 0)
+    (property "Reference" "#PWR09" (at 254 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 260.985 33.02 90)
@@ -852,7 +852,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -881,12 +881,12 @@
       )
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-          (reference "LOGO1") (unit 1)
+          (reference "LOGO?") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "LOGO1") (unit 1)
+          (reference "LOGO?") (unit 1)
         )
       )
     )
@@ -895,7 +895,7 @@
   (symbol (lib_id "power:GND") (at 218.44 35.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2337f773-238f-44d8-84fa-344db4c91dba)
-    (property "Reference" "#PWR047" (at 212.09 35.56 0)
+    (property "Reference" "#PWR06" (at 212.09 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.63 35.56 90)
@@ -911,7 +911,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -940,12 +940,12 @@
       )
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-          (reference "MH2") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "MH2") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
     )
@@ -954,7 +954,7 @@
   (symbol (lib_id "power:GNDPWR") (at 273.05 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45406c4e-c3bc-49bb-98da-228ed0aa059c)
-    (property "Reference" "#PWR072" (at 278.13 88.9 0)
+    (property "Reference" "#PWR013" (at 278.13 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 276.86 89.027 90)
@@ -970,7 +970,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -999,12 +999,12 @@
       )
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-          (reference "MH1") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "MH1") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
     )
@@ -1013,7 +1013,7 @@
   (symbol (lib_id "power:GND") (at 275.59 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a7f11d7-cd84-4f71-864a-8e58edb31747)
-    (property "Reference" "#PWR061" (at 281.94 71.12 0)
+    (property "Reference" "#PWR016" (at 281.94 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 278.765 71.12 90)
@@ -1029,7 +1029,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1038,7 +1038,7 @@
   (symbol (lib_id "power:+3.3V") (at 228.6 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 527482ff-f518-4925-8b99-79d3d2b2fda4)
-    (property "Reference" "#PWR05" (at 232.41 55.88 0)
+    (property "Reference" "#PWR?" (at 232.41 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 224.79 55.88 90)
@@ -1054,17 +1054,17 @@
     (instances
       (project "LeaderSOM"
         (path "/192d0c36-944e-4927-949b-263b8c85a7ca"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1073,7 +1073,7 @@
   (symbol (lib_id "power:+3.3V") (at 274.955 68.58 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e27d0df-1219-4701-ab25-d61d68c4dfe6)
-    (property "Reference" "#PWR05" (at 271.145 68.58 0)
+    (property "Reference" "#PWR?" (at 271.145 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 278.765 68.58 90)
@@ -1089,17 +1089,17 @@
     (instances
       (project "LeaderSOM"
         (path "/192d0c36-944e-4927-949b-263b8c85a7ca"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1108,7 +1108,7 @@
   (symbol (lib_id "power:GND") (at 229.235 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 727ab185-7972-4528-89b6-e37ec1f78833)
-    (property "Reference" "#PWR055" (at 222.885 53.34 0)
+    (property "Reference" "#PWR08" (at 222.885 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 225.425 53.34 90)
@@ -1124,7 +1124,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1153,12 +1153,12 @@
       )
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-          (reference "MH2") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "MH2") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
     )
@@ -1167,7 +1167,7 @@
   (symbol (lib_id "power:GND") (at 257.81 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c60d4ab-5075-414e-a46b-04d27ae27633)
-    (property "Reference" "#PWR048" (at 264.16 35.56 0)
+    (property "Reference" "#PWR010" (at 264.16 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 35.56 90)
@@ -1183,7 +1183,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1192,7 +1192,7 @@
   (symbol (lib_id "power:+3.3V") (at 257.81 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9273d290-5c16-4b3b-9d14-19849c43580c)
-    (property "Reference" "#PWR05" (at 254 55.88 0)
+    (property "Reference" "#PWR?" (at 254 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 261.62 55.88 90)
@@ -1208,17 +1208,17 @@
     (instances
       (project "LeaderSOM"
         (path "/192d0c36-944e-4927-949b-263b8c85a7ca"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1227,7 +1227,7 @@
   (symbol (lib_id "power:+5V") (at 217.805 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a60a6950-ea31-43e9-9b9a-01ec5368df45)
-    (property "Reference" "#PWR046" (at 221.615 33.02 0)
+    (property "Reference" "#PWR05" (at 221.615 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 214.63 33.02 90)
@@ -1243,7 +1243,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1252,7 +1252,7 @@
   (symbol (lib_id "power:GND") (at 258.445 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b33011b9-d756-47a7-b642-e97ad4758dc8)
-    (property "Reference" "#PWR057" (at 264.795 53.34 0)
+    (property "Reference" "#PWR012" (at 264.795 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.255 53.34 90)
@@ -1268,7 +1268,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1297,12 +1297,12 @@
       )
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-          (reference "MH2") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "MH2") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
     )
@@ -1311,7 +1311,7 @@
   (symbol (lib_id "power:+12V") (at 213.995 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2daff61-c125-489b-ae02-f98164d8b531)
-    (property "Reference" "#PWR074" (at 217.805 91.44 0)
+    (property "Reference" "#PWR03" (at 217.805 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 210.82 91.44 90)
@@ -1327,7 +1327,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1336,7 +1336,7 @@
   (symbol (lib_id "power:+3.3V") (at 213.36 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c33c0820-d936-4ac5-883a-5e829edc5248)
-    (property "Reference" "#PWR05" (at 217.17 68.58 0)
+    (property "Reference" "#PWR?" (at 217.17 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 209.55 68.58 90)
@@ -1352,17 +1352,17 @@
     (instances
       (project "LeaderSOM"
         (path "/192d0c36-944e-4927-949b-263b8c85a7ca"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1371,7 +1371,7 @@
   (symbol (lib_id "power:GND") (at 212.725 71.12 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6ec483f-ae30-49ec-9b18-e94c49d3e794)
-    (property "Reference" "#PWR060" (at 206.375 71.12 0)
+    (property "Reference" "#PWR01" (at 206.375 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.915 71.12 90)
@@ -1387,7 +1387,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1396,7 +1396,7 @@
   (symbol (lib_id "power:+12V") (at 273.685 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfe0c6a6-5a56-4ff9-b980-9014a10c581b)
-    (property "Reference" "#PWR084" (at 269.875 91.44 0)
+    (property "Reference" "#PWR014" (at 269.875 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 277.495 91.44 90)
@@ -1412,7 +1412,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -1441,12 +1441,12 @@
       )
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-          (reference "MH1") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "MH1") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
     )
@@ -1517,7 +1517,7 @@
   (symbol (lib_id "power:GNDPWR") (at 214.63 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f06df6b3-f9ea-47eb-ba8d-06a260793ac9)
-    (property "Reference" "#PWR073" (at 209.55 88.9 0)
+    (property "Reference" "#PWR04" (at 209.55 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 210.82 88.773 90)
@@ -1533,7 +1533,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1562,12 +1562,12 @@
       )
       (project "BPS-Leader"
         (path "/c248b171-df31-4e8a-afb6-607fa2df334b"
-          (reference "MH1") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
-          (reference "MH1") (unit 1)
+          (reference "MH?") (unit 1)
         )
       )
     )
