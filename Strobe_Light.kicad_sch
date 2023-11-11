@@ -1151,7 +1151,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/55cfe956-9550-49f5-88d2-e32c6d523ac3"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
       (project "BPS-Leader"
@@ -1306,7 +1306,7 @@
           (reference "R40") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/55cfe956-9550-49f5-88d2-e32c6d523ac3"
-          (reference "R24") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1362,13 +1362,13 @@
   (symbol (lib_id "Device:R") (at 123.825 95.885 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5431648-039f-44f8-8f38-cf319e1cbe98)
-    (property "Reference" "R23" (at 123.825 90.17 90)
+    (property "Reference" "R2" (at 123.825 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 123.825 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 123.825 97.663 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 123.825 97.663 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.825 95.885 0)
@@ -1379,7 +1379,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/55cfe956-9550-49f5-88d2-e32c6d523ac3"
-          (reference "R23") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )

@@ -1602,7 +1602,7 @@
   (symbol (lib_id "Device:R") (at 177.165 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23313d0a-34a9-4a82-acd6-671dcb8d3b11)
-    (property "Reference" "R26" (at 179.07 40.64 0)
+    (property "Reference" "R7" (at 179.07 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k" (at 179.07 43.18 0)
@@ -1619,13 +1619,13 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
-          (reference "R26") (unit 1)
+          (reference "R7") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/5e4c6ec4-73d4-4ed3-a75f-02eb4f9ac8b3"
-          (reference "R27") (unit 1)
+          (reference "R3") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bb673292-4a5d-469b-b6b6-0dc7df3c162d"
-          (reference "R29") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1709,7 +1709,7 @@
           (reference "D11") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/5e4c6ec4-73d4-4ed3-a75f-02eb4f9ac8b3"
-          (reference "D16") (unit 1)
+          (reference "D14") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bb673292-4a5d-469b-b6b6-0dc7df3c162d"
           (reference "D21") (unit 1)
@@ -1726,7 +1726,7 @@
   (symbol (lib_name "GNDPWR_4") (lib_id "power:GNDPWR") (at 210.82 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a354d13-1087-43da-9c3d-869d5409e9ea)
-    (property "Reference" "#PWR012" (at 210.82 55.88 0)
+    (property "Reference" "#PWR0111" (at 210.82 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 210.693 54.61 0)
@@ -1742,7 +1742,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/5e4c6ec4-73d4-4ed3-a75f-02eb4f9ac8b3"
           (reference "#PWR043") (unit 1)
@@ -1797,7 +1797,7 @@
   (symbol (lib_id "power:GND") (at 87.63 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52c7fee0-10f7-45fc-bde6-9f52fb4c47eb)
-    (property "Reference" "#PWR030" (at 87.63 115.57 0)
+    (property "Reference" "#PWR0107" (at 87.63 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.757 113.6142 0)
@@ -1813,7 +1813,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/5e4c6ec4-73d4-4ed3-a75f-02eb4f9ac8b3"
           (reference "#PWR042") (unit 1)
@@ -1928,16 +1928,16 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 4b05869c-a513-4f71-befb-3043e771a320))
-    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d72))
+    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d73))
     (pin "1" (uuid 0631d09e-e64f-4b1e-be5d-0be4d00e3e39))
-    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d72))
+    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d73))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
           (reference "D10") (unit 2)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/5e4c6ec4-73d4-4ed3-a75f-02eb4f9ac8b3"
-          (reference "D15") (unit 2)
+          (reference "D13") (unit 2)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bb673292-4a5d-469b-b6b6-0dc7df3c162d"
           (reference "D20") (unit 2)
@@ -2024,16 +2024,16 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid a534f786-7f56-479d-af7c-92fa7e6ec520))
-    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc0f6))
+    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc0f7))
     (pin "1" (uuid a7aea258-99cb-46ee-86d1-8f3c6ee04a9b))
-    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc0f6))
+    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc0f7))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
           (reference "D10") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/5e4c6ec4-73d4-4ed3-a75f-02eb4f9ac8b3"
-          (reference "D15") (unit 1)
+          (reference "D13") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bb673292-4a5d-469b-b6b6-0dc7df3c162d"
           (reference "D20") (unit 1)
@@ -2104,7 +2104,7 @@
   (symbol (lib_name "GNDPWR_3") (lib_id "power:GNDPWR") (at 186.69 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80c5d2a9-af77-4bd2-a9ad-5037ca7ccb15)
-    (property "Reference" "#PWR06" (at 186.69 80.01 0)
+    (property "Reference" "#PWR0110" (at 186.69 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 186.563 78.74 0)
@@ -2120,13 +2120,13 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/5e4c6ec4-73d4-4ed3-a75f-02eb4f9ac8b3"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bb673292-4a5d-469b-b6b6-0dc7df3c162d"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
@@ -2177,7 +2177,7 @@
   (symbol (lib_id "power:+3.3V") (at 87.63 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0d65423-1284-4945-9af9-af69590b34f8)
-    (property "Reference" "#PWR017" (at 87.63 95.885 0)
+    (property "Reference" "#PWR0109" (at 87.63 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 87.63 87.63 0)
@@ -2193,10 +2193,10 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/5e4c6ec4-73d4-4ed3-a75f-02eb4f9ac8b3"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bb673292-4a5d-469b-b6b6-0dc7df3c162d"
           (reference "#PWR019") (unit 1)
@@ -2240,10 +2240,10 @@
   (symbol (lib_id "Device:R") (at 175.26 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8d65ec0-a23d-48c7-a3ae-8b16448b311c)
-    (property "Reference" "R5" (at 177.165 66.04 0)
+    (property "Reference" "R5" (at 177.8 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100k" (at 177.165 68.58 0)
+    (property "Value" "100k" (at 177.8 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 173.482 67.31 90)
@@ -2266,7 +2266,7 @@
           (reference "R6") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bb673292-4a5d-469b-b6b6-0dc7df3c162d"
-          (reference "R25") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2307,7 +2307,7 @@
   (symbol (lib_id "power:GND") (at 101.6 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddd6fc9b-72ad-4ba6-a658-73f3c373c0a6)
-    (property "Reference" "#PWR032" (at 101.6 110.49 0)
+    (property "Reference" "#PWR0108" (at 101.6 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 108.585 0)
@@ -2323,7 +2323,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/5e4c6ec4-73d4-4ed3-a75f-02eb4f9ac8b3"
           (reference "#PWR044") (unit 1)
@@ -2375,7 +2375,7 @@
     (property "Value" "50" (at 62.23 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 62.23 55.118 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 62.23 55.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 62.23 53.34 0)
@@ -2437,7 +2437,7 @@
   (symbol (lib_name "+12V_2") (lib_id "power:+12V") (at 186.69 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fcf5a6a0-52e5-42f0-8b26-d754ea09cdbd)
-    (property "Reference" "#PWR09" (at 186.69 35.56 0)
+    (property "Reference" "#PWR0112" (at 186.69 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 186.69 27.305 0)
@@ -2453,13 +2453,13 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/5e4c6ec4-73d4-4ed3-a75f-02eb4f9ac8b3"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bb673292-4a5d-469b-b6b6-0dc7df3c162d"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )

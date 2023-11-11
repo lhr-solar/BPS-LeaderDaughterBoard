@@ -297,8 +297,8 @@
     (property "P/N" "RT0603FRE0710KL " (at 157.48 72.39 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 54e2c89f-2907-4abc-8653-dbe421f5e3c2))
-    (pin "2" (uuid d9bec86c-baba-4320-8104-6ce9295b9532))
+    (pin "1" (uuid 2f5aad3d-3807-4d41-a590-2cb1f89ff012))
+    (pin "2" (uuid 91a50e6f-c2f5-48a8-a1b6-b0f8ab0663b1))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
@@ -389,7 +389,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18/07644a7e-81ad-419f-bb17-8befadf53ee7"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18/54fde1a4-969f-47fe-bdff-03e3040c32f7"
           (reference "#PWR084") (unit 1)
@@ -513,7 +513,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18/07644a7e-81ad-419f-bb17-8befadf53ee7"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18/54fde1a4-969f-47fe-bdff-03e3040c32f7"
           (reference "#PWR085") (unit 1)
