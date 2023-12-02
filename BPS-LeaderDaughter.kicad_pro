@@ -506,36 +506,20 @@
       "Ignition"
     ],
     [
-      "07644a7e-81ad-419f-bb17-8befadf53ee7",
-      "Fan_Tach1"
-    ],
-    [
       "cb70587e-88a7-4e34-a774-2566ee5ba031",
       "Fan_PWM1"
     ],
     [
-      "726bf2a6-1244-4795-8327-149588380c7e",
+      "6987911b-7d09-4745-9ed2-ae46961723fc",
       "Fan_PWM2"
     ],
     [
-      "66fa18d5-534c-477b-b6ed-b26c28a08707",
+      "5bfa400a-1062-4778-999e-70160150bf07",
       "Fan_PWM3"
     ],
     [
-      "3bf7416b-1505-491f-89b6-6e99a8c04638",
+      "9e6063ac-d7b1-4ab6-8b9c-50a1e9762dc9",
       "Fan_PWM4"
-    ],
-    [
-      "54fde1a4-969f-47fe-bdff-03e3040c32f7",
-      "Fan_Tach2"
-    ],
-    [
-      "ad4a6b1d-3517-4d60-9d42-b4e70843736f",
-      "Fan_Tach3"
-    ],
-    [
-      "bae3e97a-c0cd-42ee-8b7b-226f7bc3b224",
-      "Fan_Tach4"
     ]
   ],
   "text_variables": {}
