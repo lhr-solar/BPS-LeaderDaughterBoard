@@ -677,6 +677,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 97ddceda-329d-4268-b5b7-81a3bc5b6233)
   )
+  (text "GND = GND received from LeaderSOM\nGNDA = Analog GND from LeaderSOM (Not used on this board)\nGND2 = GND from the optoisolator"
+    (at 165.1 25.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c9913332-c8b6-4de4-b87c-564fd0b58e57)
+  )
 
   (label "HV+_EN" (at 268.605 73.66 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
