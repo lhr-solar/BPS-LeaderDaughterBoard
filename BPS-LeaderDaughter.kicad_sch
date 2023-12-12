@@ -673,6 +673,11 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 7fde3ceb-ac68-47f5-943d-b90d860e4289)
   )
+  (text "To do:\nSchematic:\n	Double check LeaderSOM Connector layout\n	Fix part number and value for gate resistor on Strobe\n	Check Orion datasheet again for fan connections for sanity check\n	Sanity check for pullup math on fans\nPCB:\n	Layout :cry:\n	Fix spacing for LeaderSOM holes\n	Silkscreen\n	Silkscreen guide for 4 wire vs 3 wire fans\n	Guide for driving fans with orion\n	\n"
+    (at 28.575 196.85 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 933f6367-5dae-46ca-9de5-45d39ad2f5f6)
+  )
   (text "V1.0: \n- 3 Contactors + Fan controller circuit" (at 219.075 43.18 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 97ddceda-329d-4268-b5b7-81a3bc5b6233)
