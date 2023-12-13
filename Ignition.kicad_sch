@@ -618,7 +618,7 @@
   (symbol (lib_id "power:GND") (at 143.51 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28db7f0d-ef57-4f87-b58f-80df403c2552)
-    (property "Reference" "#PWR062" (at 143.51 88.265 0)
+    (property "Reference" "#PWR047" (at 143.51 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 86.995 0)
@@ -634,7 +634,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/115507eb-1e24-4553-a6e1-1fcd332a9a2b"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -688,7 +688,7 @@
   (symbol (lib_id "Isolator:EL817") (at 102.87 87.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c039cfd-39dc-49a1-9ce7-971d28809219)
-    (property "Reference" "U6" (at 107.95 86.36 90)
+    (property "Reference" "U2" (at 107.95 86.36 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "EL3H7" (at 107.95 88.9 90)
@@ -713,7 +713,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/115507eb-1e24-4553-a6e1-1fcd332a9a2b"
-          (reference "U6") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
       (project "Controls-LeaderDaughterPCB"
@@ -730,7 +730,7 @@
   (symbol (lib_id "power:+3.3V") (at 118.11 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e551774-b7a4-49b7-90cd-7ccf461b07cc)
-    (property "Reference" "#PWR061" (at 118.11 97.79 0)
+    (property "Reference" "#PWR046" (at 118.11 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 118.11 88.9 0)
@@ -746,7 +746,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/115507eb-1e24-4553-a6e1-1fcd332a9a2b"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -781,7 +781,7 @@
   (symbol (lib_id "Isolator:EL817") (at 59.055 88.265 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76799efa-3ccd-47d9-aea8-662602ee7064)
-    (property "Reference" "U5" (at 64.135 86.995 90)
+    (property "Reference" "U1" (at 64.135 86.995 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "EL3H7" (at 64.135 89.535 90)
@@ -806,7 +806,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/115507eb-1e24-4553-a6e1-1fcd332a9a2b"
-          (reference "U5") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
       (project "Controls-LeaderDaughterPCB"
@@ -823,7 +823,7 @@
   (symbol (lib_id "power:GND") (at 56.515 107.315 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b7e3326-143f-4760-ba11-47c9045c7ac1)
-    (property "Reference" "#PWR057" (at 56.515 113.665 0)
+    (property "Reference" "#PWR042" (at 56.515 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 56.515 112.395 0)
@@ -839,7 +839,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/115507eb-1e24-4553-a6e1-1fcd332a9a2b"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -848,7 +848,7 @@
   (symbol (lib_id "power:GND") (at 100.33 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d6ed70d-00ff-44b5-bae7-1169dfc402c0)
-    (property "Reference" "#PWR060" (at 100.33 113.03 0)
+    (property "Reference" "#PWR045" (at 100.33 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.33 111.76 0)
@@ -864,7 +864,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/115507eb-1e24-4553-a6e1-1fcd332a9a2b"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -873,7 +873,7 @@
   (symbol (lib_id "power:+3.3V") (at 74.295 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acb3ac7b-5567-4c0a-881c-1df329265a76)
-    (property "Reference" "#PWR058" (at 74.295 98.425 0)
+    (property "Reference" "#PWR043" (at 74.295 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 74.295 89.535 0)
@@ -889,7 +889,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/115507eb-1e24-4553-a6e1-1fcd332a9a2b"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -898,7 +898,7 @@
   (symbol (lib_id "power:GND") (at 91.44 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb3eb887-db7c-4ebb-9310-81e6ff7ba77a)
-    (property "Reference" "#PWR059" (at 91.44 88.9 0)
+    (property "Reference" "#PWR044" (at 91.44 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 87.63 0)
@@ -914,7 +914,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/115507eb-1e24-4553-a6e1-1fcd332a9a2b"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -979,7 +979,7 @@
   (symbol (lib_id "power:GND") (at 47.625 83.185 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eda4ab39-04f1-4aa1-bafd-4f2c119b0819)
-    (property "Reference" "#PWR056" (at 47.625 89.535 0)
+    (property "Reference" "#PWR041" (at 47.625 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 47.625 88.265 0)
@@ -995,7 +995,7 @@
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/115507eb-1e24-4553-a6e1-1fcd332a9a2b"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
