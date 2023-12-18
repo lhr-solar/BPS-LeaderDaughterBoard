@@ -1080,7 +1080,7 @@
     (property "Value" "ADT7470ARQZ-REEL7" (at 66.04 100.965 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "UTSVT_ICs:ADT7470ARQZ-REEL7" (at 87.63 200.965 0)
+    (property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" (at 87.63 200.965 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.mouser.in/datasheet/2/609/ADT7470-1503719.pdf" (at 87.63 300.965 0)
