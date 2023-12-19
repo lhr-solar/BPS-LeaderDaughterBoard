@@ -552,6 +552,16 @@
     (uuid fe7bbea7-4bf2-4109-9234-82d6b838e6ef)
   )
 
+  (text "Orion 12V connects to Orion Pin 10 (Fan Enable/ Multi Purpose Output 3)"
+    (at 117.475 135.89 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1d533edc-71a2-48f2-aaf3-24cc8c634fd6)
+  )
+  (text "Orion_PWM connects to Orion Pin 24 (Fan PWM/ Multi Purpose Output 4)"
+    (at 117.475 138.43 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3e52c426-42dc-4380-ab02-f1fda0ee380d)
+  )
   (text "Max input for tach pins should be 5V, even if Vcc is 3.3V.\nAs per page 22 of datasheet"
     (at 107.315 106.68 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -560,6 +570,15 @@
   (text "Vih for Tach inputs at Vcc = 3.3V is 2.4V" (at 105.41 118.745 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6fcc0752-2265-403f-82e6-459630afc5aa)
+  )
+  (text "GND connects to Orion Pin 12 (Ground)" (at 117.475 146.05 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a24343ea-6093-4633-8a44-bf0977103978)
+  )
+  (text "Orion Tach connects to Orion Pin 9 (Multi Purpose Inptu 3)"
+    (at 117.475 143.51 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ec906163-70ca-4fb1-8f31-be52a26181b3)
   )
   (text "Bridge all jumpers when\nconnecting ORION. All fans\nwill recieve the same PWM \ncontrol signal."
     (at 46.355 148.59 0)
@@ -882,6 +901,9 @@
     (property "Datasheet" "~" (at 20.32 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "P/N" "C0805C105K5PACTU" (at 20.32 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fd5c5e92-a19b-4adc-9006-4ec998cd8ae8))
     (pin "2" (uuid 874d1cb1-99a4-46fd-b809-a30daf8e8399))
     (instances
@@ -1089,7 +1111,7 @@
     (property "Height" "1.75" (at 87.63 500.965 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Mouser Part Number" "584-ADT7470ARQZ-R7" (at 87.63 600.965 0)
+    (property "Mouser Part Number" "" (at 87.63 600.965 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADT7470ARQZ-REEL7?qs=WIvQP4zGanjGQYBHju36gA%3D%3D" (at 87.63 700.965 0)
