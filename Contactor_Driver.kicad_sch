@@ -188,17 +188,17 @@
         )
       )
     )
-    (symbol "Diode:1N4148" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "Diode:1N4448W" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "1N4148" (at 0 -2.54 0)
+      (property "Value" "1N4448W" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 0 0 0)
+      (property "Footprint" "Diode_SMD:D_SOD-123" (at 0 -4.445 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 0 0 0)
+      (property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Sim.Device" "D" (at 0 0 0)
@@ -210,13 +210,13 @@
       (property "ki_keywords" "diode" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "100V 0.15A standard switching diode, DO-35" (at 0 0 0)
+      (property "ki_description" "100V 0.15A High-speed standard diode, SOD-123" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "D*DO?35*" (at 0 0 0)
+      (property "ki_fp_filters" "D*SOD?123*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "1N4148_0_1"
+      (symbol "1N4448W_0_1"
         (polyline
           (pts
             (xy -1.27 1.27)
@@ -244,7 +244,7 @@
           (fill (type none))
         )
       )
-      (symbol "1N4148_1_1"
+      (symbol "1N4448W_1_1"
         (pin passive line (at -3.81 0 0) (length 2.54)
           (name "K" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -877,19 +877,19 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148") (at 116.84 137.16 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 40c1333c-77b4-4a23-a604-6a9118a295a2)
-    (property "Reference" "D2" (at 119.38 135.89 90)
+  (symbol (lib_id "Diode:1N4448W") (at 116.84 137.16 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 38dffb98-f79f-439c-bdaa-7897d7077881)
+    (property "Reference" "D4" (at 119.38 135.89 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1N4148WS" (at 119.38 138.43 90)
+    (property "Value" "1N4448W" (at 119.38 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-323" (at 116.84 137.16 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 112.395 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 116.84 137.16 0)
+    (property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf" (at 116.84 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Sim.Device" "D" (at 116.84 137.16 0)
@@ -898,19 +898,10 @@
     (property "Sim.Pins" "1=K 2=A" (at 116.84 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "P/N" "1N4148WSQ-7-F" (at 116.84 137.16 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f5fc85de-4e0d-495c-9b86-9d4ee4c008fe))
-    (pin "2" (uuid cbce963a-33d3-4809-a21b-b5a0b9600c18))
+    (pin "2" (uuid 33bf9835-b62b-4f3e-a6d5-78e2bc86e779))
+    (pin "1" (uuid dfc46191-9c72-45dc-ac49-abae6dcf75be))
     (instances
       (project "BPS-LeaderDaughter"
-        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18"
-          (reference "D2") (unit 1)
-        )
-        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/bf23a663-b938-440b-843e-ef7912c82d18/cb70587e-88a7-4e34-a774-2566ee5ba031"
-          (reference "D6") (unit 1)
-        )
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
           (reference "D4") (unit 1)
         )
@@ -1095,7 +1086,7 @@
     (pin "2" (uuid 4b05869c-a513-4f71-befb-3043e771a320))
     (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d82))
     (pin "1" (uuid 0631d09e-e64f-4b1e-be5d-0be4d00e3e39))
-    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d82))
+    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d83))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
@@ -1143,7 +1134,7 @@
     (pin "2" (uuid a534f786-7f56-479d-af7c-92fa7e6ec520))
     (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc106))
     (pin "1" (uuid a7aea258-99cb-46ee-86d1-8f3c6ee04a9b))
-    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc106))
+    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc107))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
