@@ -655,31 +655,6 @@
     (uuid b716d089-9f69-4159-b6e5-69f05833a2ad)
   )
 
-  (symbol (lib_id "power:GND") (at 143.51 81.915 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 28db7f0d-ef57-4f87-b58f-80df403c2552)
-    (property "Reference" "#PWR047" (at 143.51 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 143.51 86.995 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 143.51 81.915 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 143.51 81.915 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 035b7e64-74dd-4280-bb12-34a1874f2fbe))
-    (instances
-      (project "BPS-LeaderDaughter"
-        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/115507eb-1e24-4553-a6e1-1fcd332a9a2b"
-          (reference "#PWR047") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small") (at 56.515 102.87 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31cb5fec-1aa5-4594-b308-67609afa5ff4)
@@ -768,6 +743,31 @@
         )
         (path "/c7871779-04fe-4705-8150-20a4dd0ef44f/f7827f80-0f50-4e4f-b2cd-ff48878538ae"
           (reference "U2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND1") (at 143.51 81.915 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 576a5469-8396-4f74-a34c-c03ab2b1085f)
+    (property "Reference" "#PWR023" (at 143.51 88.265 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND1" (at 143.51 86.995 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 143.51 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 143.51 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 81f1dd0d-32ff-401a-abd5-56e5cff7725d))
+    (instances
+      (project "BPS-LeaderDaughter"
+        (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/115507eb-1e24-4553-a6e1-1fcd332a9a2b"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
