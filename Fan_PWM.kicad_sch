@@ -1220,6 +1220,9 @@
     (property "Sim.Pins" "1=K 2=A" (at 87.63 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "P/N" "1N4448W" (at 87.63 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9490a537-d7c1-4578-a279-360c52721780))
     (pin "2" (uuid 19009c7f-3604-467b-aacd-d4821939afbd))
     (instances
