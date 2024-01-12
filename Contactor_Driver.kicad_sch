@@ -857,7 +857,7 @@
     (property "Datasheet" "~" (at 107.315 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "P/N" "RT0603FRE0710KL " (at 107.315 129.54 0)
+    (property "P/N" "CRCW080510K0FKEAC" (at 107.315 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e53c1c0f-a662-499a-8e38-a3aaf2e525a1))
@@ -1046,7 +1046,7 @@
     (property "Datasheet" "~" (at 114.935 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "P/N" "0436500428" (at 114.935 93.98 0)
+    (property "P/N" "436500244" (at 114.935 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ac2b0f79-172f-4e8d-85fc-9afbe71913bb))
@@ -1087,9 +1087,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 4b05869c-a513-4f71-befb-3043e771a320))
-    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d84))
+    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d8e))
     (pin "1" (uuid 0631d09e-e64f-4b1e-be5d-0be4d00e3e39))
-    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d84))
+    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d8e))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
@@ -1135,9 +1135,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid a534f786-7f56-479d-af7c-92fa7e6ec520))
-    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc108))
+    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc112))
     (pin "1" (uuid a7aea258-99cb-46ee-86d1-8f3c6ee04a9b))
-    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc108))
+    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc112))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
