@@ -16,7 +16,7 @@ The BPS Leader-Daughter is a daugherboard for the LeaderSOM. Together they will 
 [**All Components Mouser Cart**](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=f3b4372aef)  
 
 ## PCB
-![image](https://github.com/lhr-solar/BPS-PeripheralSOMPCB/blob/docs/BPS-PeripheralSOM_PCB.png?raw=true)
+![image](![image](https://github.com/lhr-solar/BPS-LeaderDaughterBoard/assets/56173382/d83def8e-b74d-4a6c-b81f-8a20744c8f9f))
 
 ## Schematic
 [**PDF with all sheets**](BPS-LeaderDaughterSchematic.pdf)
