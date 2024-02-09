@@ -964,7 +964,7 @@
     (property "Datasheet" "~" (at 107.315 137.795 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "P/N" "LHR971-KN1" (at 107.315 137.795 0)
+    (property "P/N" "APTD2012LCGCK" (at 107.315 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 16452a78-507a-4e66-8c9a-233e689c1b43))
@@ -1087,9 +1087,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 4b05869c-a513-4f71-befb-3043e771a320))
-    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d8e))
+    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d8f))
     (pin "1" (uuid 0631d09e-e64f-4b1e-be5d-0be4d00e3e39))
-    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d8e))
+    (pin "3" (uuid b28ebbb0-bfa0-49d7-b069-fab48ef50d8f))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"
@@ -1135,9 +1135,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid a534f786-7f56-479d-af7c-92fa7e6ec520))
-    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc112))
+    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc113))
     (pin "1" (uuid a7aea258-99cb-46ee-86d1-8f3c6ee04a9b))
-    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc112))
+    (pin "3" (uuid d091448b-7473-40b3-8ed3-eb645acdc113))
     (instances
       (project "BPS-LeaderDaughter"
         (path "/2e9f4f51-d216-4952-a31c-e7104e0d4b1e/ae57cd3a-fadb-4313-835a-95d5b185a797"

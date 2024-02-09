@@ -766,7 +766,7 @@
     (property "Datasheet" "~" (at 103.505 71.755 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "P/N" "LHR971-KN1" (at 103.505 71.755 0)
+    (property "P/N" "APTD2012LCGCK" (at 103.505 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fbdca65c-ef60-45b7-bf38-df96eb700e5e))

@@ -800,7 +800,7 @@
     (property "Datasheet" "~" (at 104.14 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "P/N" "0436500428" (at 104.14 138.43 0)
+    (property "P/N" "436500244" (at 104.14 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 203db1ab-ca7d-40db-adcc-aefbe0c61d8f))
