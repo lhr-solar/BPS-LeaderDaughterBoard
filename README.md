@@ -15,6 +15,12 @@ The BPS Leader-Daughter is a daugherboard for the LeaderSOM. Together they will 
 [**Partial Mouser Cart**](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2f994263ce7)  
 [**All Components Mouser Cart**](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=f3b4372aef)  
 
+## PCB
+![image](https://github.com/lhr-solar/BPS-PeripheralSOMPCB/blob/docs/BPS-PeripheralSOM_PCB.png?raw=true)
+
+## Schematic
+[**PDF with all sheets**](BPS-LeaderDaughterSchematic.pdf)
+
 
 ## Links
 [Gigavac Contactor Circuit PWM Application Note](https://sensata.com/sites/default/files/a/Sensata-gigavac-driving-contactors-with-external-pwm-app-note.pdf)  
