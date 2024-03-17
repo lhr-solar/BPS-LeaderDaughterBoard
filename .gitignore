@@ -36,3 +36,6 @@ fp-info-cache
 
 # Backups
 BPS-LeaderDaughter-backups/*
+
+# Replicate Layout Plugin
+replicate_layout.log
