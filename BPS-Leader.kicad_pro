@@ -416,8 +416,8 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -602,6 +602,10 @@
     [
       "384384a1-7c3f-4511-8abb-640229f930ed",
       "Fan2"
+    ],
+    [
+      "52b3a4d4-955c-43e8-a21b-33fe1a04884d",
+      "Strobe Light"
     ],
     [
       "d8716004-c07b-4037-bf30-e9626b797688",

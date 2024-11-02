@@ -1,1 +1,4 @@
 
+[submodule "UTSVT-KiCadLibraries"]
+	path = UTSVT-KiCadLibraries
+	url = https://github.com/lhr-solar/UTSVT-KiCadLibraries.git
