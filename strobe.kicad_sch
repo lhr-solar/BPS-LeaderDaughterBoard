@@ -1257,7 +1257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "095671d3-ce9b-445c-98df-310a815fcadc")
-		(property "Reference" "D16"
+		(property "Reference" "D14"
 			(at 33.274 43.688 90)
 			(effects
 				(font
@@ -1329,7 +1329,7 @@
 		(instances
 			(project "BPS-Leader"
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565/52b3a4d4-955c-43e8-a21b-33fe1a04884d"
-					(reference "D16")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -1345,7 +1345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0af6b843-5770-4595-8f11-a3782610399e")
-		(property "Reference" "R65"
+		(property "Reference" "R56"
 			(at 21.082 34.544 0)
 			(effects
 				(font
@@ -1399,7 +1399,7 @@
 		(instances
 			(project "BPS-Leader"
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565/52b3a4d4-955c-43e8-a21b-33fe1a04884d"
-					(reference "R65")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -1415,7 +1415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19dda0ab-71b9-4228-a012-24b28b8e38c4")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR068"
 			(at 39.37 29.21 0)
 			(effects
 				(font
@@ -1465,7 +1465,7 @@
 		(instances
 			(project "BPS-Leader"
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565/52b3a4d4-955c-43e8-a21b-33fe1a04884d"
-					(reference "#PWR078")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1480,7 +1480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3abea9c0-594a-4474-89de-b4d63b1e0c55")
-		(property "Reference" "D15"
+		(property "Reference" "D13"
 			(at 20.828 42.164 90)
 			(effects
 				(font
@@ -1534,7 +1534,7 @@
 		(instances
 			(project "BPS-Leader"
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565/52b3a4d4-955c-43e8-a21b-33fe1a04884d"
-					(reference "D15")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -1550,7 +1550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7857f2c5-dd92-4b4a-a3af-d3f6d8485cd9")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR069"
 			(at 39.37 73.66 0)
 			(effects
 				(font
@@ -1600,7 +1600,7 @@
 		(instances
 			(project "BPS-Leader"
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565/52b3a4d4-955c-43e8-a21b-33fe1a04884d"
-					(reference "#PWR079")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1615,7 +1615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8838856d-88d2-43cc-a080-e651784df001")
-		(property "Reference" "R64"
+		(property "Reference" "R55"
 			(at 19.558 64.77 90)
 			(effects
 				(font
@@ -1669,7 +1669,7 @@
 		(instances
 			(project "BPS-Leader"
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565/52b3a4d4-955c-43e8-a21b-33fe1a04884d"
-					(reference "R64")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -1685,7 +1685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b71e0857-7d21-4097-9961-100effafa438")
-		(property "Reference" "Q8"
+		(property "Reference" "Q7"
 			(at 43.18 55.8799 0)
 			(effects
 				(font
@@ -1745,7 +1745,7 @@
 		(instances
 			(project "BPS-Leader"
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565/52b3a4d4-955c-43e8-a21b-33fe1a04884d"
-					(reference "Q8")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -1760,7 +1760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1b531ae-642a-45c4-8ab9-88e9262c52cf")
-		(property "Reference" "R66"
+		(property "Reference" "R57"
 			(at 26.67 55.118 90)
 			(effects
 				(font
@@ -1812,7 +1812,7 @@
 		(instances
 			(project "BPS-Leader"
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565/52b3a4d4-955c-43e8-a21b-33fe1a04884d"
-					(reference "R66")
+					(reference "R57")
 					(unit 1)
 				)
 			)
