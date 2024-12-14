@@ -5,169 +5,6 @@
 	(uuid "58294805-9f7e-46da-955f-1c76523d2a28")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -971,12 +808,6 @@
 		)
 	)
 	(junction
-		(at 33.02 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d2936a4-5e6a-43dc-bc71-ffabe045d210")
-	)
-	(junction
 		(at 39.37 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -987,12 +818,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b49e6438-1d64-40a5-8fa7-4e1a15e9bee4")
-	)
-	(junction
-		(at 33.02 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8fed954-afb0-42e0-b983-424c72092748")
 	)
 	(junction
 		(at 21.59 57.15)
@@ -1012,7 +837,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 26.67) (xy 26.67 26.67)
+			(xy 34.29 26.67) (xy 39.37 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1029,16 +854,6 @@
 			(type default)
 		)
 		(uuid "069f6ef5-9484-4e31-946f-66371d19f7db")
-	)
-	(wire
-		(pts
-			(xy 33.02 50.8) (xy 26.67 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2109089a-68f0-43f3-9bf4-a602216d43f8")
 	)
 	(wire
 		(pts
@@ -1062,7 +877,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 50.8) (xy 33.02 50.8)
+			(xy 34.29 50.8) (xy 39.37 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1079,26 +894,6 @@
 			(type default)
 		)
 		(uuid "47c6d6c7-7104-4659-9073-3970110be5c5")
-	)
-	(wire
-		(pts
-			(xy 33.02 26.67) (xy 33.02 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d2c038-d9b1-48be-84f9-10be9fce44e4")
-	)
-	(wire
-		(pts
-			(xy 39.37 26.67) (xy 33.02 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3da4997-4101-4927-a240-b58e79fb17dc")
 	)
 	(wire
 		(pts
@@ -1122,16 +917,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 41.91) (xy 33.02 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c504ba2e-e0c4-40c8-a498-e4dd2e8e8260")
-	)
-	(wire
-		(pts
 			(xy 21.59 57.15) (xy 21.59 59.69)
 		)
 		(stroke
@@ -1142,7 +927,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 26.67) (xy 26.67 30.48)
+			(xy 34.29 26.67) (xy 34.29 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1152,7 +937,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 50.8) (xy 26.67 46.99)
+			(xy 34.29 50.8) (xy 34.29 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1162,7 +947,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 38.1) (xy 26.67 39.37)
+			(xy 34.29 38.1) (xy 34.29 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1219,95 +1004,8 @@
 		(uuid "8434daef-5cff-4f97-a3a2-3966d1678965")
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 33.02 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "095671d3-ce9b-445c-98df-310a815fcadc")
-		(property "Reference" "D26"
-			(at 33.274 43.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N448W"
-			(at 35.814 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 33.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 33.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 33.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 33.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0386cffb-201b-4b89-96e2-048d4102d5c3")
-		)
-		(pin "2"
-			(uuid "3b0c8aa0-662f-4189-a81a-13d480741577")
-		)
-		(instances
-			(project "BPS-Leader"
-				(path "/bca74250-80d8-4ae3-9726-634afabc9565/52b3a4d4-955c-43e8-a21b-33fe1a04884d"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 26.67 34.29 0)
+		(at 34.29 34.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1316,7 +1014,7 @@
 		(dnp no)
 		(uuid "0af6b843-5770-4595-8f11-a3782610399e")
 		(property "Reference" "R48"
-			(at 21.082 34.544 0)
+			(at 28.702 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +1023,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 26.67 32.512 90)
+			(at 34.29 32.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,7 +1032,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 28.448 34.29 90)
+			(at 36.068 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 34.29 0)
+			(at 34.29 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1050,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 26.67 34.29 0)
+			(at 34.29 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +1141,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 26.67 43.18 90)
+		(at 34.29 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1451,7 +1149,7 @@
 		(dnp no)
 		(uuid "3abea9c0-594a-4474-89de-b4d63b1e0c55")
 		(property "Reference" "D25"
-			(at 20.828 42.164 90)
+			(at 28.448 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +1158,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 19.558 43.942 90)
+			(at 27.178 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1167,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 26.67 43.18 0)
+			(at 34.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1176,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 43.18 0)
+			(at 34.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1185,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 26.67 43.18 0)
+			(at 34.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)

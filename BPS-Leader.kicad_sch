@@ -5,125 +5,6 @@
 	(uuid "bca74250-80d8-4ae3-9726-634afabc9565")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -2365,7 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 128.27) (xy 34.29 128.27)
+			(xy 39.37 128.27) (xy 34.29 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2425,17 +2306,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 87.63) (xy 41.91 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b656b0a-dad6-4323-b006-28d822e86ff2")
-	)
-	(wire
-		(pts
-			(xy 41.91 105.41) (xy 34.29 105.41)
+			(xy 35.56 105.41) (xy 34.29 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2336,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 67.31) (xy 34.29 67.31)
+			(xy 35.56 67.31) (xy 34.29 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2741,7 +2612,7 @@
 	)
 	(rectangle
 		(start 125.73 12.7)
-		(end 168.91 50.8)
+		(end 168.91 76.2)
 		(stroke
 			(width 0)
 			(type default)
@@ -2846,7 +2717,7 @@
 		)
 		(uuid "6d6fa4fd-c592-43c2-abda-3b5bbe65f4da")
 	)
-	(text "Logic Analyzer "
+	(text "Test Pins\n"
 		(exclude_from_sim no)
 		(at 148.336 16.256 0)
 		(effects
@@ -2903,6 +2774,19 @@
 			(justify right bottom)
 		)
 		(uuid "03d1877d-f052-47df-8973-12f7bc0def7b")
+	)
+	(label "Array_Current"
+		(at 153.67 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "09058522-6e71-4a72-b6bf-2c8653ccd6b9")
 	)
 	(label "SCL"
 		(at 153.67 43.18 0)
@@ -2993,6 +2877,18 @@
 			(justify right bottom)
 		)
 		(uuid "153260fe-096b-4ebf-abae-30b2c76757bc")
+	)
+	(label "FAN1_Current"
+		(at 140.97 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "17419cdf-e0d8-47f2-8f1b-13422ea69fdf")
 	)
 	(label "HV+_Current"
 		(at 26.67 24.13 180)
@@ -3139,6 +3035,18 @@
 		)
 		(uuid "3f7164f7-763e-411f-b403-4a3042d3fec8")
 	)
+	(label "FAN4_Current"
+		(at 140.97 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "4088c6b3-4c12-46df-b76a-de1a9aad66fb")
+	)
 	(label "CAN_L"
 		(at 222.25 53.34 0)
 		(fields_autoplaced yes)
@@ -3149,6 +3057,18 @@
 			(justify left bottom)
 		)
 		(uuid "40a339b7-40ec-4ef4-9168-6289ed5795da")
+	)
+	(label "FAN2_Current"
+		(at 140.97 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "42059f72-a0f1-4bea-8161-25a8f575dbba")
 	)
 	(label "Fan2_EN"
 		(at 109.22 40.64 0)
@@ -3272,7 +3192,7 @@
 		(uuid "6423007f-70cf-4716-aca8-c3110dfeaaad")
 	)
 	(label "Array_Current"
-		(at 41.91 105.41 0)
+		(at 35.56 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3298,7 +3218,7 @@
 		(uuid "6ae38762-5524-4195-86b3-b00ab9d6a39b")
 	)
 	(label "FAN1_Current"
-		(at 41.91 128.27 0)
+		(at 39.37 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3463,6 +3383,18 @@
 		)
 		(uuid "90025dd2-beb2-4072-a136-d6f978c0460f")
 	)
+	(label "FAN5_Current"
+		(at 153.67 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "9984e1fd-3743-4793-bb1e-76b9c38f8565")
+	)
 	(label "FanError"
 		(at 86.36 38.1 180)
 		(fields_autoplaced yes)
@@ -3522,7 +3454,7 @@
 		(uuid "a11cde17-1745-42ee-9988-879c0551e341")
 	)
 	(label "HV-_Current"
-		(at 35.56 87.63 0)
+		(at 34.29 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3556,6 +3488,19 @@
 			(justify left bottom)
 		)
 		(uuid "a6795221-8307-48f6-9f27-0899611c0567")
+	)
+	(label "HV+_Current"
+		(at 153.67 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8d176d7-a04a-44dd-9cca-ba60753ace3a")
 	)
 	(label "Fan3_EN"
 		(at 34.29 163.83 0)
@@ -3614,6 +3559,18 @@
 		)
 		(uuid "b3744825-6dc6-4e02-a7b4-22705056efc5")
 	)
+	(label "FAN3_Current"
+		(at 140.97 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8356e6e-dc10-4955-ae7b-230fc6556c9c")
+	)
 	(label "F1TACH"
 		(at 109.22 43.18 0)
 		(fields_autoplaced yes)
@@ -3648,7 +3605,7 @@
 		(uuid "b9c0f0fc-c348-481e-8187-67451f69c90a")
 	)
 	(label "HV+_Current"
-		(at 41.91 67.31 0)
+		(at 35.56 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3719,6 +3676,19 @@
 			(justify left bottom)
 		)
 		(uuid "d3cb9c8b-0922-4835-b618-982388f05833")
+	)
+	(label "HV-_EN"
+		(at 153.67 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d46687a9-c7e6-4dd0-b476-acec2032b0e8")
 	)
 	(label "HV+ SENSE"
 		(at 261.62 40.64 0)
@@ -4157,73 +4127,6 @@
 			(project "BPS-Leader"
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 92.71 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fcbb912-3a82-41ca-8a9a-cff0a03e438e")
-		(property "Reference" "J16"
-			(at 93.98 131.4449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Fan5_test"
-			(at 93.98 133.9849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 92.71 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 92.71 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f5ee1cc-73dd-4c1a-91a8-5bf3b758f55e")
-		)
-		(instances
-			(project ""
-				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
-					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -4786,73 +4689,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 41.91 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59512846-5763-426d-8641-e0369350a80f")
-		(property "Reference" "J2"
-			(at 43.18 70.4849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "HV+_test"
-			(at 43.18 73.0249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 41.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 41.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99a97609-b48d-4953-9162-c0ae97c5cc38")
-		)
-		(instances
-			(project "BPS-Leader"
-				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 50.8 120.65 0)
 		(unit 1)
@@ -4912,73 +4748,6 @@
 			(project "BPS-Leader"
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 41.91 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d30cb67-2735-4914-b8c5-562fda03bac3")
-		(property "Reference" "J6"
-			(at 43.18 169.5449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Fan3_test"
-			(at 43.18 172.0849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2354311f-4ced-4e8e-a6df-8fb08a577ef2")
-		)
-		(instances
-			(project "BPS-Leader"
-				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5121,6 +4890,91 @@
 			(project ""
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 146.05 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a48d3b4-801f-4aa7-9d4b-9486819b8dac")
+		(property "Reference" "J4"
+			(at 147.32 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fan I2C"
+			(at 147.066 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bcdb9814-24e8-4a7e-b3d5-b6864a4b3f81")
+		)
+		(pin "7"
+			(uuid "25ffcb51-4b83-4c73-9f71-1f20a4823172")
+		)
+		(pin "3"
+			(uuid "a86598c4-6685-49d0-857d-89832d2a0aa3")
+		)
+		(pin "4"
+			(uuid "a1ddf3b4-a08f-47a2-a97c-ba81367899c7")
+		)
+		(pin "1"
+			(uuid "2348c7a7-82ae-40af-8b24-e7c43bbf01fc")
+		)
+		(pin "6"
+			(uuid "70253745-51f2-4323-82cc-aeb58ed82523")
+		)
+		(pin "2"
+			(uuid "88204fc1-4838-41e9-bd3b-2b6854b77657")
+		)
+		(pin "8"
+			(uuid "29b5e5e3-c72d-4ba4-9922-930748c608e1")
+		)
+		(instances
+			(project "BPS-Leader"
+				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5682,72 +5536,6 @@
 			(project ""
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 41.91 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90c8d7b3-7d58-405e-a1d3-87f36429e793")
-		(property "Reference" "J1"
-			(at 40.894 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "HV-_test"
-			(at 40.64 92.202 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 41.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9310099-6c77-4a4e-81f2-95c8af1bda5b")
-		)
-		(instances
-			(project "BPS-Leader"
-				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6545,139 +6333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 41.91 190.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdfce102-14f4-4622-b7b0-c46ededcaf8c")
-		(property "Reference" "J7"
-			(at 43.18 188.5949 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Fan4_test"
-			(at 43.18 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 41.91 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 41.91 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b31104b-aede-4ae1-ba28-59b1ca4c494b")
-		)
-		(instances
-			(project "BPS-Leader"
-				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 41.91 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfebdd78-d545-4a0d-a680-98eb87a1b3b6")
-		(property "Reference" "J5"
-			(at 43.18 150.4949 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Fan2_test"
-			(at 43.18 153.0349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 41.91 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 41.91 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4b180ff-5a4b-426a-8228-763c53518c4c")
-		)
-		(instances
-			(project "BPS-Leader"
-				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 222.25 50.8 0)
 		(unit 1)
@@ -7003,139 +6658,6 @@
 			(project "BPS-Leader"
 				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 41.91 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6818156-cc58-4a10-a14b-c188df50bbae")
-		(property "Reference" "J4"
-			(at 43.18 131.4449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Fan1_test"
-			(at 43.18 133.9849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 41.91 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 41.91 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1ff4e28-5726-43b0-9e4d-cd1af3813544")
-		)
-		(instances
-			(project "BPS-Leader"
-				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 41.91 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f816417d-1e57-4c94-a07a-3044bedf7ff8")
-		(property "Reference" "J3"
-			(at 43.18 108.5849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Array_test"
-			(at 43.18 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 41.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 41.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21be43e0-1965-4faa-bbef-58978836ca9c")
-		)
-		(instances
-			(project "BPS-Leader"
-				(path "/bca74250-80d8-4ae3-9726-634afabc9565"
-					(reference "J3")
 					(unit 1)
 				)
 			)
