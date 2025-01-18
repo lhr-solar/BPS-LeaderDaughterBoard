@@ -3169,7 +3169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/EMC2301-2-3-5-Data-Sheet-DS20006532A.pdf"
+		(property "Datasheet" "EMC2305-1-AP-TR"
 			(at 60.96 25.4 0)
 			(effects
 				(font
