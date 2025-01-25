@@ -4762,6 +4762,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "533072471"
+			(at 234.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "d0f889f0-c1f9-468e-9e80-b1c43f6a380e")
 		)
@@ -5080,7 +5089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500215&pQuery="
 			(at 198.12 69.85 0)
 			(effects
 				(font
@@ -5090,6 +5099,15 @@
 			)
 		)
 		(property "Description" "Connection to the car's low power bus"
+			(at 198.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500215"
 			(at 198.12 69.85 0)
 			(effects
 				(font
@@ -5149,7 +5167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43650-0244?qs=XoD1gVtqLQuEe6RJ38AzJQ%3D%3D"
 			(at 158.75 129.54 0)
 			(effects
 				(font
@@ -5159,6 +5177,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500244"
 			(at 158.75 129.54 0)
 			(effects
 				(font
@@ -5419,7 +5446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43650-0244?qs=XoD1gVtqLQuEe6RJ38AzJQ%3D%3D"
 			(at 67.31 81.28 0)
 			(effects
 				(font
@@ -5429,6 +5456,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500244"
 			(at 67.31 81.28 0)
 			(effects
 				(font
@@ -5560,7 +5596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500315&pQuery="
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -5570,6 +5606,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500315"
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -5648,6 +5693,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 48.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d165621a-49c6-4381-a70d-daa95b95dc97")
 		)
@@ -5700,7 +5754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500215&pQuery="
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -5710,6 +5764,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500215"
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -5770,7 +5833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43650-0244?qs=XoD1gVtqLQuEe6RJ38AzJQ%3D%3D"
 			(at 67.31 62.23 0)
 			(effects
 				(font
@@ -5780,6 +5843,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500244"
 			(at 67.31 62.23 0)
 			(effects
 				(font
@@ -5845,7 +5917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500215&pQuery="
 			(at 203.2 85.09 0)
 			(effects
 				(font
@@ -5855,6 +5927,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500215"
 			(at 203.2 85.09 0)
 			(effects
 				(font
@@ -6052,6 +6133,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
 			(at 146.05 59.69 0)
 			(effects
 				(font
@@ -6326,7 +6416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43650-0244?qs=XoD1gVtqLQuEe6RJ38AzJQ%3D%3D"
 			(at 67.31 100.33 0)
 			(effects
 				(font
@@ -6336,6 +6426,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500244"
 			(at 67.31 100.33 0)
 			(effects
 				(font
@@ -6402,7 +6501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500315&pQuery="
 			(at 106.68 123.19 0)
 			(effects
 				(font
@@ -6412,6 +6511,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 106.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500315"
 			(at 106.68 123.19 0)
 			(effects
 				(font
@@ -6472,7 +6580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43650-0244?qs=XoD1gVtqLQuEe6RJ38AzJQ%3D%3D"
 			(at 203.2 49.53 0)
 			(effects
 				(font
@@ -6482,6 +6590,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500244"
 			(at 203.2 49.53 0)
 			(effects
 				(font
@@ -6694,6 +6811,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 146.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "cf20e460-63ed-4219-998d-9a648e23cc01")
 		)
@@ -6763,7 +6889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43650-0244?qs=XoD1gVtqLQuEe6RJ38AzJQ%3D%3D"
 			(at 158.75 147.32 0)
 			(effects
 				(font
@@ -6773,6 +6899,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500244"
 			(at 158.75 147.32 0)
 			(effects
 				(font
@@ -7049,6 +7184,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" ""
+			(at 146.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "6b6c5c30-f9b7-4120-94aa-c6a85e97b4ea")
 		)
@@ -7250,7 +7394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500315&pQuery="
 			(at 55.88 142.24 0)
 			(effects
 				(font
@@ -7260,6 +7404,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500315"
 			(at 55.88 142.24 0)
 			(effects
 				(font
@@ -7322,7 +7475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500215&pQuery="
 			(at 203.2 92.71 0)
 			(effects
 				(font
@@ -7332,6 +7485,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500215"
 			(at 203.2 92.71 0)
 			(effects
 				(font
@@ -7522,7 +7684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500315&pQuery="
 			(at 55.88 180.34 0)
 			(effects
 				(font
@@ -7532,6 +7694,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500315"
 			(at 55.88 180.34 0)
 			(effects
 				(font
@@ -7603,6 +7774,15 @@
 		)
 		(property "Description" "Symbol for both board-to-board connectors from the LeaderSOM"
 			(at 241.3 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "533072471"
+			(at 234.95 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8189,7 +8369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500215&pQuery="
 			(at 50.8 92.71 0)
 			(effects
 				(font
@@ -8199,6 +8379,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500215"
 			(at 50.8 92.71 0)
 			(effects
 				(font
@@ -8325,7 +8514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=436500315&pQuery="
 			(at 55.88 161.29 0)
 			(effects
 				(font
@@ -8335,6 +8524,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500315"
 			(at 55.88 161.29 0)
 			(effects
 				(font

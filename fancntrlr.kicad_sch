@@ -2172,7 +2172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805100KFKEAC?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gZRT9GjFuHWDV3jEqj5sSqw%3D%3D"
 			(at 50.8 78.74 0)
 			(effects
 				(font
@@ -2182,6 +2182,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 50.8 78.74 0)
 			(effects
 				(font
@@ -2306,7 +2315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805100KFKEAC?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gZRT9GjFuHWDV3jEqj5sSqw%3D%3D"
 			(at 25.4 78.74 0)
 			(effects
 				(font
@@ -2316,6 +2325,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 25.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 25.4 78.74 0)
 			(effects
 				(font
@@ -2373,7 +2391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
 			(at 39.37 33.02 0)
 			(effects
 				(font
@@ -2383,6 +2401,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105K5PACTU"
 			(at 39.37 33.02 0)
 			(effects
 				(font
@@ -2507,7 +2534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805100KFKEAC?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gZRT9GjFuHWDV3jEqj5sSqw%3D%3D"
 			(at 25.4 104.14 0)
 			(effects
 				(font
@@ -2517,6 +2544,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 25.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 25.4 104.14 0)
 			(effects
 				(font
@@ -2771,7 +2807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805100KFKEAC?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gZRT9GjFuHWDV3jEqj5sSqw%3D%3D"
 			(at 25.4 66.04 0)
 			(effects
 				(font
@@ -2781,6 +2817,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 25.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 25.4 66.04 0)
 			(effects
 				(font
@@ -2905,7 +2950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805100KFKEAC?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gZRT9GjFuHWDV3jEqj5sSqw%3D%3D"
 			(at 25.4 91.44 0)
 			(effects
 				(font
@@ -2915,6 +2960,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 25.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 25.4 91.44 0)
 			(effects
 				(font
@@ -3169,7 +3223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "EMC2305-1-AP-TR"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/EMC2301-2-3-5-Data-Sheet-DS20006532A.pdf"
 			(at 60.96 25.4 0)
 			(effects
 				(font
@@ -3180,6 +3234,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 60.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "EMC2305-1-AP-TR"
 			(at 60.96 25.4 0)
 			(effects
 				(font
@@ -3349,7 +3412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Panasonic_ERA.pdf"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -3359,6 +3422,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 125.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "ERA-6VEB1502V"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -3418,7 +3490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 50.8 66.04 0)
 			(effects
 				(font
@@ -3428,6 +3500,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "ERA-6ARB333V"
 			(at 50.8 66.04 0)
 			(effects
 				(font
@@ -3485,7 +3566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
 			(at 46.99 33.02 0)
 			(effects
 				(font
@@ -3495,6 +3576,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 46.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105K5PACTU"
 			(at 46.99 33.02 0)
 			(effects
 				(font
@@ -3554,7 +3644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805100KFKEAC?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gZRT9GjFuHWDV3jEqj5sSqw%3D%3D"
 			(at 25.4 118.11 0)
 			(effects
 				(font
@@ -3564,6 +3654,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 25.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 25.4 118.11 0)
 			(effects
 				(font

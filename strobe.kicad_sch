@@ -1040,7 +1040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/71-CRCW080510K0FKEAC"
 			(at 34.29 34.29 0)
 			(effects
 				(font
@@ -1050,6 +1050,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
 			(at 34.29 34.29 0)
 			(effects
 				(font
@@ -1175,7 +1184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/678/hsmq_c170_t0000_ds100-2498198.pdf"
 			(at 34.29 43.18 0)
 			(effects
 				(font
@@ -1185,6 +1194,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "HSMQ-C170-T0000"
 			(at 34.29 43.18 0)
 			(effects
 				(font
@@ -1310,7 +1328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0805100KFKEAC?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gZRT9GjFuHWDV3jEqj5sSqw%3D%3D"
 			(at 21.59 63.5 0)
 			(effects
 				(font
@@ -1320,6 +1338,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 21.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
 			(at 21.59 63.5 0)
 			(effects
 				(font
@@ -1401,6 +1428,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "IRLML0030"
+			(at 36.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bf97d18-6339-4c89-87b5-a78f3324349c")
 		)
@@ -1453,7 +1489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/71-CRCW08051K00FKEAC"
 			(at 26.67 57.15 0)
 			(effects
 				(font
@@ -1463,6 +1499,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 26.67 57.15 0)
 			(effects
 				(font
