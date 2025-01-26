@@ -1175,7 +1175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "footprints:D_0805_2012Metric(adjsilk)"
 			(at 34.29 43.18 0)
 			(effects
 				(font
